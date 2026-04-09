@@ -33,9 +33,6 @@ response = ec2.run_instances(
 )
  
 # --- Timeline 2: Create Snapshots for All Volumes ---
-# This block is independent and creates snapshots for ALL EBS volumes in the account.
-# It is not limited to volumes from the instances created above.
-# This represents a different point in time or a separate automation task.
 
 list = ec2.describe_volumes()
 for volume in list['Volumes'] :
