@@ -42,6 +42,16 @@ I am currently learning Python and building small hands-on projects to strengthe
 
 ---
 
+### 📁 GitHub Webhook → Jira Ticket Automation
+
+* Creates Jira tickets automatically using Flask API
+* Integrates GitHub/webhook requests with Jira
+* Reduces manual issue tracking effort
+* Uses REST APIs for automation
+  📍 Path: `jira-ticket-automation/`
+
+---
+
 ## 🧠 Skills Practiced
 
 * Python basics
@@ -50,6 +60,7 @@ I am currently learning Python and building small hands-on projects to strengthe
 * Working with APIs (`requests`)
 * JSON parsing
 * AWS automation using Boto3
+* Webhook & API integration
 * Automation mindset
 
 ---
